@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeocra - The Next Dimension of Technology</title>
+    <link rel="stylesheet" href="css/style.css">
+<style>
+    .hero h4 {
+        text-align: left;
+        margin-bottom: 0.1rem;
+    }
+    .hero h1 {
+        text-align: center;
+    margin-block-start: 0;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <a href="index.html" class="logo">
+                    <img src="images/light.png" class="logo-light" alt="Zeocra Light Logo">
+                    <img src="images/dark.png" class="logo-dark" alt="Zeocra Dark Logo">
+                </a>
+            </div>
+            <div class="header-center">
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-right">
+                <button id="theme-toggle" aria-label="Toggle dark mode">&#9728;</button>
+                <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Open navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav" id="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero animated-text">
+            <div class="container">
+                <h4>Zeocra Innovations</h4>
+                <h1>The Next Dimension of Technology.</h1>
+                <p>Zeocra is a newly founded technology startup specializing in innovative hardware and software solutions. We are passionate about creating products that redefine possibilities and shape the future.</p>
+                <div class="btn-container">
+                    <a href="campaign.html" class="btn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="hardware" class="alternating-section container fade-in">
+            <div class="alternating-text animated-text">
+                <h2>Hardware Engineering.</h2>
+                <p>We are designing and building innovative hardware products that are both powerful and beautiful. Our focus is on creating devices that are intuitive and seamlessly integrate into your life. Exciting projects are coming soon.</p>
+            </div>
+            <div class="alternating-image">
+                <img src="images/hard.png" alt="Hardware Innovation" loading="lazy">
+            </div>
+        </section>
+
+        <section id="software" class="alternating-section container fade-in">
+            <div class="alternating-image">
+                <img src="images/soft.png" alt="Software Solutions" loading="lazy">
+            </div>
+            <div class="alternating-text animated-text">
+                <h2>Software Development.</h2>
+                <p>We are crafting elegant and efficient software solutions that power our hardware and provide exceptional user experiences. Our software is designed to be reliable, secure, and easy to use.</p>
+            </div>
+        </section>
+
+        <section id="closer-look" class="fade-in">
+            <div class="heading-container">
+                <h5 >Take a closer look.</h5>
+            </div>
+            <div class="container-full-width">
+                <div class="feature-card" id="feature-card">
+                    <button class="feature-close-button" id="feature-close-button" aria-label="Close all features">&times;</button>
+                    <div class="feature-nav-arrows">
+                        <button id="feature-prev" aria-label="Previous feature"><span class="chevron up"></span></button>
+                        <button id="feature-next" aria-label="Next feature"><span class="chevron down"></span></button>
+                    </div>
+                    <div class="closer-look-grid">
+                        <div class="feature-controls-container">
+                            <div class="feature-list" id="feature-list">
+                                <div class="feature-item" data-feature="performance-engine">
+                                    <div class="feature-title"><div class="icon-circle">+</div><span>Performance Engine</span></div>
+                                    <div class="feature-description"><p>A next-generation embedded system with multi-core AI acceleration delivering lightning-fast computations in real time.</p></div>
+                                </div>
+                                <div class="feature-item" data-feature="seamless-ecosystem">
+                                    <div class="feature-title"><div class="icon-circle">+</div><span>Seamless Ecosystem</span></div>
+                                    <div class="feature-description"><p>Designed to integrate effortlessly with Zeocra hardware and software, creating a unified, high-performance environment.</p></div>
+                                </div>
+                                <div class="feature-item" data-feature="intelligent-security">
+                                    <div class="feature-title"><div class="icon-circle">+</div><span>Intelligent Security</span></div>
+                                    <div class="feature-description"><p>Hardware-level encryption and adaptive security layers that protect sensitive data from tampering and breaches.</p></div>
+                                </div>
+                                <div class="feature-item" data-feature="adaptive-design">
+                                    <div class="feature-title"><div class="icon-circle">+</div><span>Adaptive Design</span></div>
+                                    <div class="feature-description"><p>Future-ready modular architecture with flexible compatibility, ensuring longevity and scalability for evolving needs.</p></div>
+                                </div>
+                                <div class="feature-item" data-feature="energy-optimization">
+                                    <div class="feature-title"><div class="icon-circle">+</div><span>Energy Optimization</span></div>
+                                    <div class="feature-description"><p>Smart power management that maximizes performance while extending battery life and reducing energy consumption.</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-image-container">
+                            <img src="images/1.png" alt="Feature Image" class="feature-image active" data-feature="default">
+                            <img src="images/2.png" alt="Performance Engine" class="feature-image" data-feature="performance-engine">
+                            <img src="images/3.png" alt="Seamless Ecosystem" class="feature-image" data-feature="seamless-ecosystem">
+                            <img src="images/4.png" alt="Intelligent Security" class="feature-image" data-feature="intelligent-security">
+                            <img src="images/5.png" alt="Adaptive Design" class="feature-image" data-feature="adaptive-design">
+                            <img src="images/6.png" alt="Energy Optimization" class="feature-image" data-feature="energy-optimization">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="careers-home" class="container content-section fade-in">
+            <div class="animated-text">
+                <h2>Join Our Team.</h2>
+                <p>We are looking for passionate and talented individuals to join us on our journey to shape the future of technology. If you are excited about innovation and want to make an impact, we would love to hear from you.</p>
+                <div class="btn-container">
+                    <a href="careers.html" class="btn">View Openings</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-home" class="fade-in">
+            <div class="container-full-width">
+                <div class="feature-card">
+                    <div class="animated-text" style="padding: 2rem 0;">
+                        <h2>Get in Touch.</h2>
+                        <p>Have a question, a proposal, or just want to say hello? We would love to hear from you. Reach out and let's start a conversation.</p>
+                        <div class="btn-container">
+                            <a href="contact.html" class="btn">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="https://www.linkedin.com/company/zeocra-innovations">LinkedIn</a>
+            </div>
+            <div class="footer-nav">
+                <a href="legal.html">Privacy Policy</a>
+                <a href="legal.html">Terms of Use</a>
+                <a href="legal.html">Legal</a>
+                <a href="contact.html#map">Map</a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2025 Zeocra. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
